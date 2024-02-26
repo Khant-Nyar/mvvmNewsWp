@@ -23,7 +23,7 @@ NewsApp is a visually appealing news application for Android platforms that prov
 
 To get started with the NewsApp, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/vswati0101/newsapp.git`
+1. Clone the repository: `git clone https://github.com/Khant-Nyar/mvvmNewsWp.git`
 2. Open the project in Android Studio.
 3. Build and run the app on an Android device or emulator.
 
