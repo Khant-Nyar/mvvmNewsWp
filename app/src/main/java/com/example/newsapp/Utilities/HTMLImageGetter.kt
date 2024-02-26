@@ -13,16 +13,19 @@ import com.zzhoujay.richtext.ImageHolder
 import com.zzhoujay.richtext.RichTextConfig
 import com.zzhoujay.richtext.callback.ImageGetter
 import com.zzhoujay.richtext.callback.ImageLoadNotify
+import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
+@Suppress("NAME_SHADOWING")
 class HTMLImageGetter(
     private val res: Resources,
     private val htmlTextView: TextView,
     private val context: Context
 ) : ImageGetter {
+    @OptIn(DelicateCoroutinesApi::class)
     override fun getDrawable(
         holder: ImageHolder?,
         config: RichTextConfig?,
