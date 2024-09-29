@@ -1,6 +1,6 @@
 # NewsApp
 
-NewsApp is a visually appealing news application for Android platforms that provides real-time news articles using Kotlin and MVVM Architecture.
+NewsApp is a visually appealing news application for Android platforms that provides real-time news articles using Kotlin and MVVM Architecture.m
 
 
 ## Features
